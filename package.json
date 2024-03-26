@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot-schema",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "author": "KotyaraDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KotyaraDev/discord-bot-schema/issues"
+  },
+  "homepage": "https://github.com/KotyaraDev/discord-bot-schema#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KotyaraDev/discord-bot-schema.git"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "child_process": "^1.0.2"
+  }
+}

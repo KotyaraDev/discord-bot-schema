@@ -1,0 +1,7 @@
+{
+    "status": false,
+    "$status_comment": "Global bot status in case of errors etc. disables execution of commands and stuff. (After startup the bot will automatically change it to True, please do not touch this setting)",
+
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "prefix": "[DiscordBot]:"
+}
