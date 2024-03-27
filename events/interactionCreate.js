@@ -8,10 +8,10 @@ module.exports = async (bot, interaction) => {
         try {
             return await command.execute(interaction, bot.functions);
         } catch (error) {
-            console.log(`Ошибка при выполнении команды ${interaction.commandName} (${error})`);
+            console.log(`Error while executing command ${interaction.commandName} (${error})`);
 
             return await interaction.reply({
-                content: '🔴 Произошла ошибка при выполнении команды!',
+                content: '🔴 An error occurred while executing a command!',
                 ephemeral: true
             });
         }
